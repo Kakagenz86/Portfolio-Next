@@ -1,14 +1,14 @@
+import CardProject from './cardproject';
 import './style.css'
 
 const Project = () => {
     return (
-        <section>
-            <div>
-                <h1 className="text-3xl text-center font-medium">Project</h1>
+        <section className='lg:flex lg:flex-col lg:pt-0 xs:flex xs:pt-60 xs:flex-col'>
+            <div className='flex flex-col items-center'>
+                <h1 className="text-5xl text-center title-project">Project</h1>
+                <div className="line-title-project"></div>
             </div>
-            <div>
-                <h1 className="text-3xl text-center font-medium">Coming Soon</h1>
-            </div>
+            <CardProject/>
         </section>
     );
 }

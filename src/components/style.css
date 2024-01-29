@@ -8,13 +8,15 @@
 /* TITLE */
 .title-skills,
 .title-about,
-.title-hero {
+.title-hero,
+.title-project {
     font-family: 'sen', serif;
     font-weight: 700;
 }
 
 /* LINE TITLE */
-.line-title-skills {
+.line-title-skills,
+.line-title-project {
     height: 7px;
     background-color: orange;
     margin-bottom: 70px;
@@ -23,6 +25,10 @@
 
 .line-title-skills {
     width: 180px;
+}
+
+.line-title-project {
+    width: 200px;
 }
 
 /* DESC */
@@ -50,12 +56,11 @@
     animation: float 3s ease-in-out infinite;
 }
 
-.img {
-        border-radius: 100%;
+.img-skills {
 }
 
-.img:hover {
-    background-color: orange;
+.img-skills:hover {
+    color: orange;
     transform: scale(1.3);
 }
 

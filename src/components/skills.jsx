@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHtml5, faCss3, faJs, faReact, faBootstrap, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faHtml5, faCss3, faJs, faReact, faBootstrap, faGithub} from "@fortawesome/free-brands-svg-icons";
 import Image from "next/image";
 import next from '@/assets/image/next.png'
 import tailwind from '@/assets/image/tailwind.png'
@@ -8,12 +8,12 @@ import './style.css'
 
 const Skills = () => {
     return (
-        <section className="lg:flex lg:flex-col xs:flex xs:pt-40 xs:flex-col">
+        <section className="lg:flex lg:flex-col lg:pt-0 xs:flex xs:pt-60 xs:flex-col">
             <div className="flex flex-col items-center">
-                <h1 className="title-skills text-3xl font-medium">SKILLS</h1>
+                <h1 className="title-skills text-5xl font-medium">SKILLS</h1>
                 <div className="line-title-skills"></div>
             </div>
-            <div className="lg:grid lg:grid-cols-4 lg:m-auto lg:gap-40 xs:grid xs:grid-cols-3 xs:m-auto xs:gap-20">
+            <div className="lg:grid lg:grid-cols-4 lg:m-auto lg:gap-32 xs:grid xs:grid-cols-3 xs:m-auto xs:gap-20">
                     <div>
                         <FontAwesomeIcon className="text-7xl" icon={faHtml5} />
                         <p>HTML5</p>

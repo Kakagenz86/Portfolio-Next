@@ -17,7 +17,7 @@ const Home = () => {
       <div className='bg-gray-200 h-screen'>
         <Skills/>
       </div>
-      <div className='bg-gray-200 h-screen'>
+      <div className='bg-gray-200 h-full'>
         <Project/>
       </div>
       {/* <div>
