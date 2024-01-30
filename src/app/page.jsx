@@ -3,12 +3,14 @@ import Navbar from "@/components/navbar";
 import AboutMe from "@/components/about";
 import Skills from "@/components/skills";
 import Project from "@/components/project";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 const Home = () => {
   return (
     <div>
-      <div className='bg-gray-200 h-screen'>
           <Navbar />
+      <div className='bg-gray-200 h-screen'>
           <Hero />
       </div>
       <div className='bg-gray-200 h-screen'>
@@ -20,11 +22,12 @@ const Home = () => {
       <div className='bg-gray-200 h-full'>
         <Project/>
       </div>
-      {/* <div>
-          <footer>
-              <p className='text-center'>Copyright © 2023 Muhamad Kaka Hardiansyah. All rights reserved.</p>
-          </footer>
-      </div> */}
+      <div>
+        <Contact/>
+      </div>
+      <div>
+        <Footer/>
+      </div>
     </div>
   );
 }
