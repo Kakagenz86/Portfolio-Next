@@ -38,7 +38,7 @@ const AboutMe = () => {
                                 <a href='https://www.youtube.com/channel/UCTBlZDK-nyFWzY1t2Auixlw'>
                                     <FontAwesomeIcon className='lg:text-3xl xs:text-2xl' icon={faYoutube} />
                                 </a>
-                                <a className='flex flex-col' href="https://www.dropbox.com/scl/fi/62k5ezpic2e07qgos8csu/CV-M-KAKA-HARDIANSYAH.pdf?dl=1" download>
+                                <a className='flex flex-col' href="https://drive.google.com/uc?export=download&id=1OffFukSFBqintl2L4rOF_bgh3ZfNsJ6w" download>
                                     <FontAwesomeIcon className='lg:text-3xl xs:text-2xl' icon={faFile} />
                                     CV
                                 </a>

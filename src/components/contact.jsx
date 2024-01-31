@@ -36,10 +36,10 @@ const Contact = () => {
             </div>
             <div className='m-auto gap-5 flex py-10'>
                 <a className='w-40 h-10 rounded bg-green-500 flex justify-center items-center' href="mailto:muhamadkakahardiansyah@gmail.com">
-                    <FontAwesomeIcon className="lg:text-3xl" icon={faEnvelope} />
+                    <FontAwesomeIcon className="lg:text-3xl xs:text-xl" icon={faEnvelope} />
                 </a>
                 <a className='w-40 h-10 rounded bg-green-500 flex justify-center items-center' href="https://wa.me/+6285157718328">
-                    <FontAwesomeIcon className="lg:text-3xl" icon={faWhatsapp} />
+                    <FontAwesomeIcon className="lg:text-3xl xs:text-xl" icon={faWhatsapp} />
                 </a>
             </div>
         </div>
