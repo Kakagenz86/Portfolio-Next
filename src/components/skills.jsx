@@ -10,6 +10,7 @@ import './style.css'
 import 'aos/dist/aos.css';
 import Aos from 'aos';
 import { useEffect } from "react";
+import { faMobileScreen } from "@fortawesome/free-solid-svg-icons";
 
 const Skills = () => {
     useEffect(() => {
@@ -45,22 +46,26 @@ const Skills = () => {
                         <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faBootstrap} />
                         <p>Bootstrap</p>
                     </div>
-                    <figure data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
-                        <Image src={next} className="img-skills lg:w-16 xs:w-12" alt="nextjs" />
-                        <figcaption>Next</figcaption>
-                    </figure>
-                    <figure data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
-                        <Image src={tailwind} className="img-skills lg:w-16 xs:w-12" alt="tailwind" />
-                        <figcaption>Tailwind</figcaption>
-                    </figure>
-                    <figure data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
-                        <Image src={restapi} className="img-skills lg:w-16 xs:w-12" alt="restapi" />
-                        <figcaption>Rest API</figcaption>
-                    </figure>
-                    <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="900">
+                    <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
                         <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faGithub} />
                         <p>Github</p>
                     </div>
+                    <div data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
+                        <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faMobileScreen}/>
+                        <p>Responsive</p>
+                    </div>
+                    <figure data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">
+                        <Image src={next} className="img-skills lg:w-16 xs:w-12" alt="nextjs" />
+                        <figcaption>Next</figcaption>
+                    </figure>
+                    <figure data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="900">
+                        <Image src={tailwind} className="img-skills lg:w-16 xs:w-12" alt="tailwind" />
+                        <figcaption>Tailwind</figcaption>
+                    </figure>
+                    <figure data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">
+                        <Image src={restapi} className="img-skills lg:w-16 xs:w-12" alt="restapi" />
+                        <figcaption>Rest API</figcaption>
+                    </figure>
             </div>
         </section>
     );

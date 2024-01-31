@@ -1,11 +1,12 @@
 'use client'
 
 import { useEffect } from 'react';
-import { faInstagram, faGithub, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faGithub, faLinkedin, faYoutube} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './style.css'
 import 'aos/dist/aos.css';
 import Aos from 'aos';
+import { faFile } from '@fortawesome/free-regular-svg-icons';
 
 const AboutMe = () => {
     useEffect(() => {
@@ -25,17 +26,21 @@ const AboutMe = () => {
                             <h1 className='title-about lg:text-5xl xs:text-2xl'>Mari Berteman</h1>
                             <p className='desc-about lg:text-xl'>Mari Berteman untuk sharing pengalaman tentang dunia programer dan menambah relasi</p>
                             <div className='flex gap-4 mt-3'>
-                                <a className='about-sosmed' href='https://www.instagram.com/kakaa_genzz/'>
+                                <a href='https://www.instagram.com/kakaa_genzz/'>
                                     <FontAwesomeIcon className='lg:text-3xl xs:text-2xl' icon={faInstagram} />
                                 </a>
-                                <a className='about-sosmed' href='https://github.com/Kakagenz86'>
+                                <a href='https://github.com/Kakagenz86'>
                                     <FontAwesomeIcon className='lg:text-3xl xs:text-2xl' icon={faGithub} />
                                 </a>
-                                <a className='about-sosmed' href='https://www.linkedin.com/in/muhamad-kaka-hardiansyah-08535727a/'>
+                                <a href='https://www.linkedin.com/in/muhamad-kaka-hardiansyah-08535727a/'>
                                     <FontAwesomeIcon className='lg:text-3xl xs:text-2xl' icon={faLinkedin} />
                                 </a>
-                                <a className='about-sosmed' href='https://www.youtube.com/channel/UCTBlZDK-nyFWzY1t2Auixlw'>
+                                <a href='https://www.youtube.com/channel/UCTBlZDK-nyFWzY1t2Auixlw'>
                                     <FontAwesomeIcon className='lg:text-3xl xs:text-2xl' icon={faYoutube} />
+                                </a>
+                                <a className='flex flex-col' href="https://www.dropbox.com/scl/fi/62k5ezpic2e07qgos8csu/CV-M-KAKA-HARDIANSYAH.pdf?dl=1" download>
+                                    <FontAwesomeIcon className='lg:text-3xl xs:text-2xl' icon={faFile} />
+                                    CV
                                 </a>
                             </div>
                         </div>

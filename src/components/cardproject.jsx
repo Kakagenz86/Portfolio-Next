@@ -29,64 +29,74 @@ const CardProject = () => {
     }, []);
 
     const projectMe = [{
+        title: 'CRUD',
         image: img1,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
-        alt: 'web wedding image',
-        link: '#'
+        description: 'CRUD in React JS with API sudah ada register dan Login',
+        alt: 'CRUD IMAGE',
+        link: 'https://crud-reactapi.vercel.app/'
     },
     {
+        title: 'Portfolio reactjs',
         image: img2,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
-        alt: 'company profile Utama Medical',
-        link: '#'
+        description: 'portfolio menggunakan reactjs dan bootstrap',
+        alt: 'portfolio react image',
+        link: 'https://kakaportfolio-react.vercel.app/'
     },
     {
+        title: 'Company Profile',
         image: img3,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
-        alt: 'olshop image',
-        link: '#'
+        description: 'company profile utama medical dengan react js dan bootstrap',
+        alt: 'company profile Utama Medical',
+        link: 'https://utama-medical.vercel.app/'
     },
     {
+        title: 'Wedding Web',
         image: img4,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
-        alt: 'mini portfolio image',
-        link: '#'
+        description: 'wedding web yang saya pelajari dari WPU',
+        alt: 'web wedding image',
+        link: 'https://wedding-web-five.vercel.app/'
     },
     {
+        title: 'Car Rental Landing Page',
         image: img5,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
+        description: 'challenge gold dari saya mengikuti bootcamp, membuat landing page',
         alt: 'car rental image',
-        link: '#'
+        link: 'https://car-rental-gilt-eight.vercel.app/'
     },
     {
+        title: 'Shop Affiliate',
         image: img6,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
+        description: 'mini shop pembelajaran untuk affiliate menggunakan tailwind',
         alt: 'shop affiliate image',
-        link: '#'
+        link: 'https://kandaaaff.vercel.app/'
     },
     {
+        title: 'Box Model',
         image: img7,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
+        description: 'ini pembuatan box model saat saya baru awal belajar front end di WPU',
         alt: 'box-model image',
-        link: '#'
+        link: 'https://boxmodel-cyan.vercel.app/'
     },
     {
+        title: 'Portfolio HTML CSS',
         image: img8,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
-        alt: 'react from binar image',
-        link: '#'
+        description: 'portfolio pertama saya menggunakan html css',
+        alt: ' portfolio image ',
+        link: 'https://miniport.vercel.app/'
     },
     {
+        title: 'Mini Web Film',
         image: img9,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
+        description: 'ini mini web film saya menggunakan react js',
         alt: 'web film image',
-        link: '#'
+        link: 'https://genz-film.vercel.app/'
     },
     {
+        title: 'Mini Ecommerce',
         image: img10,
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, magnam a! Iste laboriosam fugiat itaque mollitia odit, necessitatibus facilis ducimus.',
-        alt: 'web film image',
-        link: '#'
+        description: 'ini saya belajar membuat mini ecommerce dengan tailwind di cuy university',
+        alt: 'mini ecommerce',
+        link: 'https://onlineshoes.vercel.app/'
     }]
     return (
         <div className='lg:grid lg:grid-cols-4 gap-10 m-auto'>
@@ -94,9 +104,9 @@ const CardProject = () => {
                     <div key={index}  className="w-72 xs:mt-10 rounded overflow-hidden shadow-lg" data-aos="flip-left" data-aos-easing="linear" data-aos-duration={animationDuration[index]}>
                         <Image className="w-full h-44" src={data.image} alt={data.alt} />
                         <div className='bg-white p-5'>
-                            <h1 className="font-bold text-xl">The Coldest Sunset</h1>
+                            <h1 className="font-bold text-xl">{data.title}</h1>
                             <p className="text-gray-500 text-sm">{data.description}</p>
-                            <a className="inline-block bg-gray-200 mt-5 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mb-2" href={data.link}>Lihat Sekarang</a>
+                            <a target='_blank' className="inline-block bg-gray-200 mt-5 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mb-2" href={data.link}>Lihat Sekarang</a>
                         </div>
                     </div>
             ))}
