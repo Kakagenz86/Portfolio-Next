@@ -10,6 +10,7 @@ import img7 from '../assets/image/img7.png'
 import img8 from '../assets/image/img8.png'
 import img9 from '../assets/image/img9.png'
 import img10 from '../assets/image/img10.png'
+import img11 from '../assets/image/img11.png'
 import './style.css'
 import Image from 'next/image'
 import 'aos/dist/aos.css';
@@ -36,11 +37,11 @@ const CardProject = () => {
         link: 'https://crud-reactapi.vercel.app/'
     },
     {
-        title: 'Portfolio reactjs',
+        title: 'Car Rental',
         image: img2,
-        description: 'portfolio menggunakan reactjs dan bootstrap',
-        alt: 'portfolio react image',
-        link: 'https://kakaportfolio-react.vercel.app/'
+        description: 'challenge platinum dari saya mengikuti bootcamp, ini versi lengkap dari challenge gold',
+        alt: 'car rental',
+        link: 'http://loave.tech/'
     },
     {
         title: 'Company Profile',
@@ -64,25 +65,25 @@ const CardProject = () => {
         link: 'https://car-rental-gilt-eight.vercel.app/'
     },
     {
-        title: 'Shop Affiliate',
+        title: 'Portfolio reactjs',
         image: img6,
+        description: 'portfolio menggunakan reactjs dan bootstrap',
+        alt: 'portfolio react image',
+        link: 'https://kakaportfolio-react.vercel.app/'
+    },
+    {
+        title: 'Shop Affiliate',
+        image: img7,
         description: 'mini shop pembelajaran untuk affiliate menggunakan tailwind',
         alt: 'shop affiliate image',
         link: 'https://kandaaaff.vercel.app/'
     },
     {
         title: 'Box Model',
-        image: img7,
+        image: img8,
         description: 'ini pembuatan box model saat saya baru awal belajar front end di WPU',
         alt: 'box-model image',
         link: 'https://boxmodel-cyan.vercel.app/'
-    },
-    {
-        title: 'Portfolio HTML CSS',
-        image: img8,
-        description: 'portfolio pertama saya menggunakan html css',
-        alt: ' portfolio image ',
-        link: 'https://miniport.vercel.app/'
     },
     {
         title: 'Mini Web Film',
@@ -97,7 +98,14 @@ const CardProject = () => {
         description: 'ini saya belajar membuat mini ecommerce dengan tailwind di cuy university',
         alt: 'mini ecommerce',
         link: 'https://onlineshoes.vercel.app/'
-    }]
+    },
+    {
+        title: 'Portfolio HTML CSS',
+        image: img11,
+        description: 'portfolio pertama saya menggunakan html css',
+        alt: ' portfolio image ',
+        link: 'https://miniport.vercel.app/'
+    },]
     return (
         <div className='lg:grid lg:grid-cols-4 gap-10 m-auto'>
             {projectMe.map((data, index) => (

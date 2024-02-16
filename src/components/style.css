@@ -64,9 +64,14 @@ html {
 }
 
 .img-skills:hover {
-    color: orange;
+    color: orange !important;
     transform: scale(1.3);
 }
+
+.img-skills:hover path {
+    fill: orange;
+}
+
 
 @keyframes float {
     0% {
