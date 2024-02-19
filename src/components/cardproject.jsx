@@ -11,6 +11,7 @@ import img8 from '../assets/image/img8.png'
 import img9 from '../assets/image/img9.png'
 import img10 from '../assets/image/img10.png'
 import img11 from '../assets/image/img11.png'
+import img12 from '../assets/image/img12.png'
 import './style.css'
 import Image from 'next/image'
 import 'aos/dist/aos.css';
@@ -49,6 +50,13 @@ const CardProject = () => {
         description: 'company profile utama medical dengan react js dan bootstrap',
         alt: 'company profile Utama Medical',
         link: 'https://utama-medical.vercel.app/'
+    },
+    {
+        title: 'Genz ANIME',
+        image: img12,
+        description: `List ANIME ini dibuat menggunakan teknologi NEXTJS dengan css framework tailwind`,
+        alt: 'Genz ANIME',
+        link: 'https://anime-list-two-eosin.vercel.app/'
     },
     {
         title: 'Wedding Web',
