@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return (
-      <nav className="bg-slate-900 navbar lg:flex lg:flex-row xs:flex xs:flex-col sticky top-0 gap-3 z-10 justify-around">
+      <nav className="bg-slate-900 navbar md:flex md:flex-row flex flex-col sticky top-0 gap-3 z-10 justify-around">
               <div className="flex items-center">
                 <h1 className="text-cyan-400 text-xl ps-3">Kaka Hardiansyah</h1>
               </div>

@@ -20,38 +20,38 @@ const Skills = () => {
         });
     }, []);
     return (
-        <section id="skills" className="lg:flex lg:flex-col xs:flex xs:flex-col">
+        <section id="skills" className="md:flex md:flex-col flex flex-col">
             <div className="flex flex-col items-center mb-10">
                 <h1 className="title-skills text-5xl font-medium">SKILLS</h1>
                 <div className="line-title-skills"></div>
             </div>
-            <div className="lg:grid lg:grid-cols-4 lg:m-auto lg:gap-32 xs:grid xs:grid-cols-3 xs:m-auto bg xs:gap-10">
+            <div className="md:grid md:grid-cols-4 md:m-auto md:gap-32 grid grid-cols-3 m-auto bg gap-10">
                     <div className="flex flex-col justify-center items-center gap-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="100">
-                        <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faHtml5} />
+                        <FontAwesomeIcon className="md:text-7xl text-5xl img-skills" icon={faHtml5} />
                         <p>HTML5</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="200">
-                        <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faCss3} />
+                        <FontAwesomeIcon className="md:text-7xl text-5xl img-skills" icon={faCss3} />
                         <p>CSS3</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="300">
-                        <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faJs} />
+                        <FontAwesomeIcon className="md:text-7xl text-5xl img-skills" icon={faJs} />
                         <p>JS</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="400">
-                        <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faReact} />
+                        <FontAwesomeIcon className="md:text-7xl text-5xl img-skills" icon={faReact} />
                         <p>React</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="500">
-                        <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faBootstrap} />
+                        <FontAwesomeIcon className="md:text-7xl text-5xl img-skills" icon={faBootstrap} />
                         <p>Bootstrap</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="600">
-                        <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faGithub} />
+                        <FontAwesomeIcon className="md:text-7xl text-5xl img-skills" icon={faGithub} />
                         <p>Github</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="700">
-                        <FontAwesomeIcon className="lg:text-7xl xs:text-5xl img-skills" icon={faMobileScreen}/>
+                        <FontAwesomeIcon className="md:text-7xl text-5xl img-skills" icon={faMobileScreen}/>
                         <p>Responsive</p>
                     </div>
                     <div className="flex flex-col justify-center items-center gap-5" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="800">

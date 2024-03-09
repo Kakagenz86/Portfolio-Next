@@ -14,11 +14,11 @@ const Contact = () => {
                 </div>
             </div>
             <div className='m-auto gap-5 flex flex-col py-10'>
-                <a className='lg:w-44 lg:h-20 xs:w-32 h-12 rounded bg-green-500 flex justify-center items-center' href="mailto:muhamadkakahardiansyah@gmail.com">
-                    <FontAwesomeIcon className="lg:text-5xl xs:text-2xly" icon={faEnvelope} />
+                <a className='md:w-44 md:h-20 w-32 h-12 rounded bg-green-500 flex justify-center items-center' href="mailto:muhamadkakahardiansyah@gmail.com">
+                    <FontAwesomeIcon className="md:text-5xl text-2xly" icon={faEnvelope} />
                 </a>
-                <a className='lg:w-44 lg:h-20 xs:w-32 h-12 rounded bg-green-500 flex justify-center items-center' href="https://wa.me/+6285157718328">
-                    <FontAwesomeIcon className="lg:text-5xl xs:text-2xly" icon={faWhatsapp} />
+                <a className='md:w-44 md:h-20 w-32 h-12 rounded bg-green-500 flex justify-center items-center' href="https://wa.me/+6285157718328">
+                    <FontAwesomeIcon className="md:text-5xl text-2xly" icon={faWhatsapp} />
                 </a>
             </div>
         </div>

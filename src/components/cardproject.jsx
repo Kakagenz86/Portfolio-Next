@@ -136,9 +136,11 @@ const CardProject = () => {
         github: 'https://github.com/kaka-h/port'
     },]
     return (
-        <div className='lg:grid lg:grid-cols-4 gap-10 m-auto'>
+        <div className='md:grid md:grid-cols-4 gap-10 m-auto'>
             {projectMe.map((data, index) => (
-                    <div key={index}  className="w-72 xs:mt-10 rounded overflow-hidden shadow-lg" data-aos="flip-left" data-aos-easing="linear" data-aos-duration={animationDuration[index]}>
+                <div className="card">
+                    
+                    <div key={index}  className="w-72 mt-10 rounded overflow-hidden shadow-lg" data-aos="flip-left" data-aos-easing="linear" data-aos-duration={animationDuration[index]}>
                         <Image className="w-full h-44" src={data.image} alt={data.alt} />
                         <div className='bg-white p-5'>
                             <h1 className="font-bold text-xl">{data.title}</h1>
@@ -149,6 +151,7 @@ const CardProject = () => {
                             </div>
                         </div>
                     </div>
+                </div>
             ))}
         </div>
     );
