@@ -13,6 +13,7 @@ import img10 from '../assets/image/img10.png'
 import img11 from '../assets/image/img11.png'
 import img12 from '../assets/image/img12.png'
 import img13 from '../assets/image/img13.jpg'
+import img14 from '../assets/image/img14.png'
 import './style.css'
 import Image from 'next/image'
 import 'aos/dist/aos.css';
@@ -86,6 +87,14 @@ const CardProject = () => {
         alt: 'car rental image',
         link: 'https://car-rental-gilt-eight.vercel.app/',
         github: 'https://github.com/kaka-h/Car-Rental-Gold'
+    },
+    {
+        title: 'ecommerce with redux toolkit',
+        image: img14,
+        description: 'saya membuat ecommerce ini menggunakan redux toolkit dan reactjs disertai dengan tailwind',
+        alt: 'ecommerce',
+        link: 'https://ecommerce-reduxtool.vercel.app/',
+        github: 'https://github.com/kaka-h/ecommerce-redux-toolkit'
     },
     {
         title: 'Portfolio reactjs',
